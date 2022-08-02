@@ -1,4 +1,18 @@
-body {
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+html { overflow-y: scroll; }
+
+.bodyDiv{
+  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+  left: 0;
+  width: 100%;
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -6,6 +20,179 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+.bodyHeadContainer {
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 4rem;
+}
+
+.row1 {
+   display: flex;
+   width: 100%;
+}
+
+.row2 {
+  /*border: solid red 1px;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 6rem 4rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 6rem;
+}
+
+.row3 {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin: auto;
+  margin-bottom: 110px;
+  margin-top: 1rem;
+}
+
+
+
+.placeHolderLogo {
+  flex-grow: 4;
+  height: 100%;
+   /*border: solid red 1px;*/
+}
+
+.loremIpsum {
+  /*border: solid red 1px;*/
+  text-align: left;
+  height: 100%;
+  flex-grow: 8;
+  font-family: 'Uchen', serif;
+  font-size: 1.5rem;
+}
+.footerClass {
+  background-color:hsl(205.7, 100%,96.6%);
+  position: relative;
+  padding-top: 1rem;
+   width:100%;
+   height:110px; 
+}
+
+.headerClass {
+  background-color:  hsl(205.7, 100%,96.6%);
+  position: relative;
+   top: 0;
+   width:100%;
+   height:120px; 
+   display: flex;
+   justify-content: flex-start;
+   z-index: 1;
+}
+
+.headerButtonContainer {
+  width: 640px; 
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    flex: 6;
+    
+}
+
+.logoContainer {
+  display: flex;
+  /*border: solid red 1px;*/
+  height: 100%;
+  align-items: center;
+  justify-content: center ;
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.homePageButton {
+  margin: 1rem 50px;
+  width: 120px;
+  left: -10%;
+}
+
+.selectButton {
+  margin-top: 2rem;
+  width: auto;
+ 
+}
+
+.copyRight_div{
+   /*border: solid orange 1px;*/
+  width: 100%;
+  flex-grow: 2;
+  max-height: 25px;
+}
+
+
+.footerInfos_flex_container{
+  display: flex;
+  justify-content: space-between;
+  /*border: solid orange 1px;*/
+  flex-grow: 7;
+  max-height: 65px;
+}
+
+.flexChild {
+  /*border: solid red 1px;*/
+  width: 10%;
+  height: 100%;
+  flex-grow: 1;
+}
+.socialFlex {
+  flex-grow: 3;
+  text-align: right;
+  height: 100%;
+  width: 10%;
+  padding: 0.5rem;
+}
+
+.branding-child {
+  flex-grow: 3;
+  text-align: left;
+  
+}
+
+.divider-flex {
+  max-height: 1px;
+  margin: auto;
+  flex-grow: 1;
+}
+
+.flex-wrapper {
+  /*border: solid green 1px;*/
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainWrapper {
+  height: 100%;
+  display: flex;
+}
+
+
+.filterBar {
+  border: solid hsla(229, 94%, 82%, 0.7) 2px;
+  height: 3rem;
+  padding: 0.25rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

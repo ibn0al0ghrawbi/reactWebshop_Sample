@@ -1,14 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import "./App.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Catalog from "./Components/Routes/Catalog/Catalog.jsx";
+import Cart from "./Components/Routes/Cart/Cart.jsx";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer.jsx";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+/**
+ * call Header and Footer here to prevent loading
+ *  the component on every page. Also the buttons stay highlighted
+ */
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div className="App">
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="Catalog" element={<Catalog />} />
+        <Route path="Cart" element={<Cart />} />
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function

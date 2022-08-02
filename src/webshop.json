@@ -1,0 +1,422 @@
+[
+    {
+      "id": "1",
+      "product_name": "Jordan 1 Mid",
+      "size": "45",
+      "color": "tripple-white",
+      "quantity": "23",
+      "price_usd": "139.99",
+      "subtype": "sneaker",
+      "manufacturer": "Nike"
+    },
+    {
+      "id": "2",
+      "product_name": "Dunk Low Retro White Black Panda",
+      "size": "40",
+      "color": "black-white",
+      "quantity": "5",
+      "price_usd": "219.99",
+      "subtype": "sneaker",
+      "manufacturer": "Nike"
+    },
+    {
+      "id": "3",
+      "product_name": "Dunk Low Retro Black Hyper Cobalt",
+      "size": "40",
+      "color": "black-blue-white",
+      "quantity": "14",
+      "price_usd": "205.49",
+      "subtype": "sneaker",
+      "manufacturer": "Nike"
+    },
+    {
+      "id": "4",
+      "product_name": "Yeezy Slide",
+      "size": "38",
+      "color": "beige",
+      "quantity": "108",
+      "price_usd": "199.99",
+      "subtype": "slipper",
+      "manufacturer": "Adidas"
+    },
+    {
+      "id": "5",
+      "product_name": "Supreme Manhattan Tee",
+      "size": "XL",
+      "color": "black",
+      "quantity": "43",
+      "price_usd": "99.99",
+      "subtype": "t-shirt",
+      "manufacturer": "Supreme"
+    },
+    {
+      "id": "6",
+      "product_name": "Supreme Manhattan Tee",
+      "size": "XXL",
+      "color": "black",
+      "quantity": "30",
+      "price_usd": "99.99",
+      "subtype": "t-shirt",
+      "manufacturer": "Supreme"
+    },
+    {
+      "id": "7",
+      "product_name": "Looney Tunes T-Shirt",
+      "size": "S",
+      "color": "white",
+      "quantity": "12",
+      "price_usd": "35.00",
+      "subtype": "t-shirt",
+      "manufacturer": "Reebok"
+    },
+    {
+      "id": "8",
+      "product_name": "Graphic Series T-Shirt",
+      "size": "M",
+      "color": "black",
+      "quantity": "28",
+      "price_usd": "30.00",
+      "subtype": "t-shirt",
+      "manufacturer": "Reebok"
+    },
+    {
+      "id": "9",
+      "product_name": "Unisex Tight Tension French Terry Zip-Up Hoody",
+      "size": "L",
+      "color": "beige",
+      "quantity": "10",
+      "price_usd": "39.30",
+      "subtype": "hoodie",
+      "manufacturer": "Muji"
+    },
+    {
+      "id": "10",
+      "product_name": "Puma Classics ribbed cross over top",
+      "size": "S",
+      "color": "grey",
+      "quantity": "6",
+      "price_usd": "55.30",
+      "subtype": "top",
+      "manufacturer": "Puma"
+    },
+    {
+      "id": "11",
+      "product_name": "Puma Train Blue Spuce Shorts",
+      "size": "L",
+      "color": "blue",
+      "quantity": "6",
+      "price_usd": "34.55",
+      "subtype": "shorts",
+      "manufacturer": "Puma"
+    },
+    {
+      "id": "12",
+      "product_name": "ASOS 4505 Curve Ski Mid Layer",
+      "size": "48",
+      "color": "black",
+      "quantity": "11",
+      "price_usd": "37.99",
+      "subtype": "hoodie",
+      "manufacturer": "ASOS"
+    },
+    {
+      "id": "13",
+      "product_name": "Palm Angels Bear Print Sprayed Logo Hoodie",
+      "size": "M",
+      "color": "navy-blue",
+      "quantity": "7",
+      "price_usd": "385.00",
+      "subtype": "hoodie",
+      "manufacturer": "Palm Angels"
+    },
+    {
+      "id": "14",
+      "product_name": "Palm Angels Classic Track Pants",
+      "size": "M",
+      "color": "black",
+      "quantity": "4",
+      "price_usd": "344.00",
+      "subtype": "bottoms",
+      "manufacturer": "Palm Angels"
+    },
+    {
+      "id": "15",
+      "product_name": "Adidas Ultra Boost 4.0 DNA",
+      "size": "42",
+      "color": "white",
+      "quantity": "15",
+      "price_usd": "127.00",
+      "subtype": "sneaker",
+      "manufacturer": "Adidas"
+    },
+    {
+      "id": "16",
+      "product_name": "Palace Valley of the Shadows T-shirt",
+      "size": "L",
+      "color": "black",
+      "quantity": "3",
+      "price_usd": "120.00",
+      "subtype": "t-shirt",
+      "manufacturer": "Palace"
+    },
+    {
+      "id": "17",
+      "product_name": "Palace Saves Shorts",
+      "size": "L",
+      "color": "red",
+      "quantity": "3",
+      "price_usd": "151.00",
+      "subtype": "shorts",
+      "manufacturer": "Palace"
+    },
+    {
+      "id": "18",
+      "product_name": "Kith x Looney Tunes KithJam Vintage Tee",
+      "size": "XL",
+      "color": "black",
+      "quantity": "1",
+      "price_usd": "451.00",
+      "subtype": "t-shirt",
+      "manufacturer": "Kith"
+    },
+    {
+      "id": "19",
+      "product_name": "Puma LaMelo Ball MB.01",
+      "size": "40",
+      "color": "red-green",
+      "quantity": "25",
+      "price_usd": "135.00",
+      "subtype": "sneaker",
+      "manufacturer": "Puma"
+    },
+    {
+      "id": "20",
+      "product_name": "Puma Mirage Mox EB",
+      "size": "40.5",
+      "color": "white-desert sage",
+      "quantity": "2",
+      "price_usd": "100.00",
+      "subtype": "sneaker",
+      "manufacturer": "Puma"
+    },
+    {
+      "id": "21",
+      "product_name": "Adidas Samba",
+      "size": "44",
+      "color": "cream-green-gum",
+      "quantity": "8",
+      "price_usd": "160.00",
+      "subtype": "sneaker",
+      "manufacturer": "Adidas"
+    },
+    {
+      "id": "22",
+      "product_name": "Kid Cudi CPFM For MOTM III Heaven on Earth T-shirt",
+      "size": "XL",
+      "color": "white",
+      "quantity": "2",
+      "price_usd": "50.00",
+      "subtype": "t-shirt",
+      "manufacturer": "Kid Cudi"
+    },
+    {
+      "id": "23",
+      "product_name": "Kid Cudi Flower T-shirt",
+      "size": "L",
+      "color": "black",
+      "quantity": "2",
+      "price_usd": "75.00",
+      "subtype": "t-shirt",
+      "manufacturer": "Kid Cudi"
+    },
+    {
+      "id": "24",
+      "product_name": "Travis Scott The Scotts Cj Gaming I L/S Jersey",
+      "size": "L",
+      "color": "black-multi",
+      "quantity": "6",
+      "price_usd": "95.00",
+      "subtype": "jersey",
+      "manufacturer": "Travis Scott"
+    },
+    {
+      "id": "25",
+      "product_name": "Jordan 1 Retro High Shadow 2.0",
+      "size": "44",
+      "color": "black-white-grey",
+      "quantity": "7",
+      "price_usd": "227.00",
+      "subtype": "sneaker",
+      "manufacturer": "Nike"
+    },
+    {
+      "id": "26",
+      "product_name": "Adidas NMD R1 Primeblue ",
+      "size": "41",
+      "color": "white",
+      "quantity": "13",
+      "price_usd": "108.00",
+      "subtype": "sneaker",
+      "manufacturer": "Adidas"
+    },
+    {
+      "id": "27",
+      "product_name": "Jordan x Maison Chateau Rouge",
+      "size": "L",
+      "color": "black",
+      "quantity": "3",
+      "price_usd": "70.00",
+      "subtype": "t-shirt",
+      "manufacturer": "Nike"
+    },
+    {
+      "id": "28",
+      "product_name": "Anti Social Social Club Kkoch Tee ",
+      "size": "M",
+      "color": "black",
+      "quantity": "303",
+      "price_usd": "73.00",
+      "subtype": "t-shirt",
+      "manufacturer": "ASSC"
+    },
+    {
+      "id": "29",
+      "product_name": "Supreme Arc Water ",
+      "size": "L",
+      "color": "red",
+      "quantity": "15",
+      "price_usd": "157.00",
+      "subtype": "shorts",
+      "manufacturer": "Supreme"
+    },
+    {
+      "id": "30",
+      "product_name": "Sp5der P*NK Hoodie",
+      "size": "L",
+      "color": "pink",
+      "quantity": "56",
+      "price_usd": "231.00",
+      "subtype": "hoodie",
+      "manufacturer": "Sp5der"
+    },
+    {
+      "id": "31",
+      "product_name": "Converse Chuck Taylor All-Star 70 Hi",
+      "size": "42",
+      "color": "black",
+      "quantity": "33",
+      "price_usd": "133.00",
+      "subtype": "sneaker",
+      "manufacturer": "Converse"
+    },
+    {
+      "id": "32",
+      "product_name": "Crocs Classic Clog",
+      "size": "39",
+      "color": "red",
+      "quantity": "44",
+      "price_usd": "105.00",
+      "subtype": "sneaker",
+      "manufacturer": "Crocs"
+    },
+    {
+      "id": "33",
+      "product_name": "Comme des Garcons PLAY Pastelle Red Emblem",
+      "size": "M",
+      "color": "blue",
+      "quantity": "12",
+      "price_usd": "85.00",
+      "subtype": "t-shirt",
+      "manufacturer": "Comme des Garcons"
+    },
+    {
+      "id": "34",
+      "product_name": "Stussy x CPFM International T-shirt",
+      "size": "M",
+      "color": "white",
+      "quantity": "1",
+      "price_usd": "95.00",
+      "subtype": "t-shirt",
+      "manufacturer": "Stussy"
+    },
+    {
+      "id": "35",
+      "product_name": "Stussy Fuzzy Dice Tee",
+      "size": "XXL",
+      "color": "black",
+      "quantity": "23",
+      "price_usd": "70.00",
+      "subtype": "t-shirt",
+      "manufacturer": "Stussy"
+    },
+    {
+      "id": "36",
+      "product_name": "Chrome Hearts Multi Color Cross Cemetery T-shirt",
+      "size": "S",
+      "color": "black",
+      "quantity": "23",
+      "price_usd": "490.00",
+      "subtype": "t-shirt",
+      "manufacturer": "Chrome Hearts"
+    },
+    {
+      "id": "37",
+      "product_name": "Fear of God Essentials Pull-Over Hoodie",
+      "size": "L",
+      "color": "cream",
+      "quantity": "15",
+      "price_usd": "100.00",
+      "subtype": "hoodie",
+      "manufacturer": "Fear Of God"
+    },
+    {
+      "id": "38",
+      "product_name": "Fear of God Essentials Core Collection Pullover Hoodie",
+      "size": "",
+      "color": "cream",
+      "quantity": "20",
+      "price_usd": "99.00",
+      "subtype": "hoodie",
+      "manufacturer": "Fear Of God"
+    },
+    {
+      "id": "39",
+      "product_name": "Fear of God Essentials T-Shirt",
+      "size": "M",
+      "color": "cream",
+      "quantity": "50",
+      "price_usd": "59.99",
+      "subtype": "t-shirt",
+      "manufacturer": "Fear Of God"
+    },
+    {
+      "id": "40",
+      "product_name": "Off-White x Jordan T-Shirt",
+      "size": "L",
+      "color": "white",
+      "quantity": "23",
+      "price_usd": "157.42",
+      "subtype": "t-shirt",
+      "manufacturer": "Off-White"
+    },
+    {
+      "id": "41",
+      "product_name": "Off-White x Jordan Hoodie",
+      "size": "XL",
+      "color": "white",
+      "quantity": "34",
+      "price_usd": "370.99",
+      "subtype": "hoodie",
+      "manufacturer": "Off-White"
+    },
+    {
+      "id": "42",
+      "product_name": "Off-White Arrow Socks",
+      "size": "42",
+      "color": "white",
+      "quantity": "67",
+      "price_usd": "61.49",
+      "subtype": "socks",
+      "manufacturer": "Off-White"
+    }
+  ]
