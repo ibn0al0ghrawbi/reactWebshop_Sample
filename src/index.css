@@ -192,7 +192,32 @@ html { overflow-y: scroll; }
   
 }
 
+.productContainer {
 
+  height: 100%;
+  display: flex;
+  min-height: 31.5rem;
+  padding-top: 2rem;
+}
+.productPic {
+  flex: 4;
+}
+
+.productDetails {
+  flex: 8;
+  text-align: left;
+  line-height: 4rem;
+  
+}
+.productDetailsDescript {
+  font-family: 'Uchen', serif;
+  font-size: 1.2rem;
+}
+.rightSide {
+  font-family: 'Uchen', bold;
+  font-size: 1.5rem;
+  color:  hsla(229, 94%, 62%, 0.9);
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

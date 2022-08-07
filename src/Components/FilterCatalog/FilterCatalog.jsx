@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import { AutoComplete, TreeSelect } from "antd";
-
+import { TreeSelect } from "antd";
 
 const { TreeNode } = TreeSelect;
 
-export default function FilterCatalog() {
-  const [value, setValue] = useState();
+export default function FilterCatalog(props) {
+ 
+
 
   const onChange = (newValue) => {
     console.log(newValue);
-    setValue(newValue);
+    
   };
 
   return (
@@ -17,9 +17,9 @@ export default function FilterCatalog() {
       showSearch
       style={{
         width: "20%",
-       border: "solid hsla(229, 94%, 82%, 0.7) 2px"
+        border: "solid hsla(229, 94%, 82%, 0.7) 2px",
       }}
-      value={value}
+      
       dropdownStyle={{
         maxHeight: 400,
         overflow: "auto",
@@ -28,17 +28,11 @@ export default function FilterCatalog() {
       allowClear
       multiple
       treeDefaultExpandAll
-      onChange={onChange}
+      onChange={props.onChange}
     >
-     
-    <TreeNode value="leaf1" title="Sneaker" />
-    <TreeNode value="leaf2" title="Shirt" />
-    <TreeNode value="leaf3" title="Item3" />
-    <TreeNode value="leaf4" title="Item4" />
-    <TreeNode value="leaf5" title="Item5" />
-    
-        
-      
+      {props.filterList.map((entry, index) => (
+        <TreeNode key={entry} value={entry} title={entry} />
+      ))}
     </TreeSelect>
   );
 }

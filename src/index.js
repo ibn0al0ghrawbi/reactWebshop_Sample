@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Catalog from "./Components/Routes/Catalog/Catalog.jsx";
 import Cart from "./Components/Routes/Cart/Cart.jsx";
+import ProductInfos from "./Components/ProductInfos/ProductInfos.jsx";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer.jsx";
 
@@ -22,7 +23,8 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="Catalog" element={<Catalog />} />
+        <Route path="/Catalog" element={<Catalog />} />
+        <Route path="/Catalog/:productid" element={<ProductInfos />} />
         <Route path="Cart" element={<Cart />} />
       </Routes>
       <Footer/>
