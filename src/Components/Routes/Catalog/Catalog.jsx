@@ -6,50 +6,29 @@ import FilterCatalog from "../../FilterCatalog/FilterCatalog.jsx";
 import CatalogSearch from "../../CatalogSearch/CatalogSearch.jsx";
 
 export default class Catalog extends Component {
-  /**
-   * state = {
-    webshop: [],
-  };
-
-   * 
-   */
+  constructor() {
+    super();
+    this.state = { webshop: webshop };
+    this.setState = this.setState.bind(this); //bind this to use setState in FilterCatalog
+  }
 
   render() {
-    let filteredList;
-    const filterSet = new Set();
-
-    webshop.map((entry) => filterSet.add(entry.subtype));
-
-    const filterArray = Array.from(filterSet);
-    console.log("in Catalog", filterSet);
-
-    /*
-    
-    
-    */
-    const changeFilter = (newValue) => {
-      console.log("in Catalog", newValue, typeof newValue);
-
-      filteredList = webshop.filter(({ subtype }) =>
-        newValue.includes(subtype)
-      );
-      console.log("filtered List in Catalog ", filteredList);
-
-      this.setState(filteredList);
-    };
-
     return (
       <div className="catalogBody">
         <div className="filterBar">
           <FilterCatalog
             className="filterField"
-            filterList={filterArray}
-            onChange={changeFilter}
+            setState={this.setState}
+            webshop={webshop}
           />
-          <CatalogSearch className="filterField" />
+          <CatalogSearch
+            className="filterField"
+            setState={this.setState}
+            webshop={webshop}
+          />
         </div>
         <div className="row2">
-          {webshop.map((entry) => (
+          {this.state.webshop.map((entry) => (
             <div key={entry.id}>
               {
                 <TileCard

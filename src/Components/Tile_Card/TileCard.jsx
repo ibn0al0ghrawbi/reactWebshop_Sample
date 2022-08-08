@@ -4,6 +4,7 @@ import placeholder from "./placeholder.png";
 import SelectButton from "../SelectButton/SelectButton.jsx";
 import { Link } from "react-router-dom";
 
+
 const { Meta } = Card;
 
 export default class TileCard extends Component {
@@ -36,25 +37,12 @@ export default class TileCard extends Component {
         cover={<img alt="example" src={placeholder} />}
       >
         <Meta
-          description={`${
-            "Title: " +
-            this.state.title +
-            "\nSize: " +
-            this.state.size +
-            "\nColor: " +
-            this.state.color +
-            "\nQuantity: " +
-            this.state.quantity +
-            "\nManufacturer: " +
-            this.state.manufacturer +
-            "\nPrice: $" +
-            this.state.price
-          }`}
+          description={`${this.state.title + "\nPrice: $" + this.state.price}`}
         />
-        <Link to={`/Catalog/${this.state.id}-${this.state.title}` } >
+        <Link to={`/Catalog/${this.state.id}-${this.state.title}`}>
           <SelectButton
             buttonField="Open Product"
-            onClick = {this.openItemCard}
+            onClick={this.openItemCard}
           />
         </Link>
       </Card>

@@ -4,9 +4,26 @@ import { Input } from "antd";
 
 const { Search } = Input;
 
-const onSearch = (value) => console.log(value);
+export default function CatalogSearch(props) {
+  const onSearch = (value) => { //searching works only with exact values "Nike" instead of "nike"
+    if (Object.keys(value).length === 0) {
+      //if searchbar empty then setState as initial json
+      props.setState({ webshop: props.webshop });
+    } else {
+      //otherwise filter by values
+      const filteredList = props.webshop.filter((obj) => {
+        for (const item in obj) {
+          if (!obj.hasOwnProperty(item)) continue;
+          if(obj[item].includes(value)){
+            return obj
+          }
+        }
+      });
 
-export default function CatalogSearch() {
+      props.setState({ webshop: filteredList });
+    }
+  };
+
   return (
     <Search
       placeholder="search in catalog"
