@@ -1,19 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import webshop from "../../webshop.json";
-import placeholder from "../Tile_Card/placeholder.png";
+import axios from "axios";
+
+import SpinnerFunction from "../SpinnerFunction/SpinnerFunction.jsx";
 
 export default function ProductInfos() {
+  const [webshop, setWebshop] = useState([]);
+  const [dataReturned, setDataReturned] = useState(false);
+
   const params = useParams();
   const info = params.productid.split("-")[0];
-  const product = webshop.filter((item) => item.id === info);
+  let product;
 
-  return (
-    <div>
+  useEffect(() => {
+    const fetchData = async () => {
+      const result = await axios(`http://localhost:8080/catalog/${info}`);
+      setWebshop(result.data);
+      setDataReturned(true);
+    };
+
+    fetchData();
+  }, [info]);
+
+  function CalcData() {
+    return (
       <div className="productContainer">
         <div className="productPic">
           {" "}
-          <img alt="example" src={placeholder} width="440px" />{" "}
+          <img alt="example" src={product[0].link} width="340px" />{" "}
         </div>
         <div className="productDetails">
           <span className="productDetailsDescript">Product Name:</span>{" "}
@@ -32,6 +46,12 @@ export default function ProductInfos() {
           <span className="rightSide">{product[0].quantity}</span> <br />
         </div>
       </div>
-    </div>
-  );
+    );
+  }
+
+
+
+  product = webshop.filter((item) => item.id === info); //this needs to become the response webs
+
+  return <div>{dataReturned ? <CalcData /> : <SpinnerFunction />}</div>;
 }

@@ -12,7 +12,7 @@ import {
 export default function Footer() {
   return (
     <div className="footerClass">
-      <div className="flex-wrapper">
+      <div className="footer_flex-wrapper">
         <div className="footerInfos_flex_container">
           <div className="flexChild branding-child">
             <h4 style={{ padding: "0 3px", margin: "0" }}>Branding Stuff</h4>

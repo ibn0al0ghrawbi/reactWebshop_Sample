@@ -16,11 +16,11 @@ export default function CatalogSearch(props) {
           if (!obj.hasOwnProperty(item)) continue;
           if(obj[item].includes(value)){
             return obj
-          }
+          } 
         }
       });
-
-      props.setState({ webshop: filteredList });
+     
+      props.setState({ webshop: filteredList, countedElements: filteredList.length, showElements: 6, buttonField: "Show More"  }); //return count of items for show more button 
     }
   };
 

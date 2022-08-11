@@ -27,12 +27,11 @@ root.render(
         <Route path="/Catalog/:productid" element={<ProductInfos />} />
         <Route path="Cart" element={<Cart />} />
       </Routes>
-      <Footer/>
+
+      <Footer />
     </BrowserRouter>
   </div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();

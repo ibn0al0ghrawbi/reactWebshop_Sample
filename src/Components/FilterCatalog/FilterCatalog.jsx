@@ -20,9 +20,9 @@ export default function FilterCatalog(props) {
         newValue.includes(subtype)
       );
 
-      
+      //lift the state without bind
 
-      props.setState({ webshop: filteredList });
+      props.setState({ webshop: filteredList, countedElements: filteredList.length, showElements: 6, buttonField: "Show More"  }); //add length to count items for 'show more' button
     }
   };
 

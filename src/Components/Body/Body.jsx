@@ -1,7 +1,7 @@
 import React from "react";
 import PagePic from "../PagePic/PagePic.jsx";
 import HomeTileCard from "../HomeTileCard/HomeTileCard.jsx"
-import HeaderButton from "../HeaderButtons/HeaderButton.jsx";
+
 import productPic from "../HomeTileCard/product_pic.jpg"
 import windTurbines from "../HomeTileCard/sustainable.jpg"
 import humanitarian from "../HomeTileCard/human.jpg"

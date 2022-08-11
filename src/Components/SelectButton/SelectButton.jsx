@@ -8,6 +8,7 @@ export default function SelectButton(props) {
       className="selectButton"
       style={{ background: "hsla(219, 94%, 82%, 0.7)" }}
       onClick={props.onClick}
+      webshop= {props.webshop}
     >{props.buttonField}</Button>
   );
 }

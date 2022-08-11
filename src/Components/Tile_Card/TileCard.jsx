@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { Card } from "antd";
-import placeholder from "./placeholder.png";
 import SelectButton from "../SelectButton/SelectButton.jsx";
 import { Link } from "react-router-dom";
-
 
 const { Meta } = Card;
 
@@ -18,12 +16,11 @@ export default class TileCard extends Component {
       quantity: this.props.quantity,
       manufacturer: this.props.manufacturer,
       price: this.props.price_usd,
+      link: this.props.link,
+      alt: this.props.product_name,
+      webshop: this.props.webshop,
     };
   }
-
-  openItemCard = () => {
-    console.log(this.state.id + " clicked");
-  };
 
   render() {
     return (
@@ -31,19 +28,17 @@ export default class TileCard extends Component {
         hoverable
         style={{
           width: 340,
+          padding: 30,
           border: "solid hsla(229, 94%, 82%, 0.7) 4px",
           fontFamily: "Uchen, serif",
         }}
-        cover={<img alt="example" src={placeholder} />}
+        cover={<img alt={this.state.alt} src={this.state.link} />}
       >
         <Meta
           description={`${this.state.title + "\nPrice: $" + this.state.price}`}
         />
         <Link to={`/Catalog/${this.state.id}-${this.state.title}`}>
-          <SelectButton
-            buttonField="Open Product"
-            onClick={this.openItemCard}
-          />
+          <SelectButton buttonField="Open Product" />
         </Link>
       </Card>
     );

@@ -7,7 +7,8 @@
       "quantity": "23",
       "price_usd": "139.99",
       "subtype": "sneaker",
-      "manufacturer": "Nike"
+      "manufacturer": "Nike",
+      "link": "https://images.stockx.com/images/Air-Jordan-1-Mid-Triple-White-2020.png?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1607054824&q=75"
     },
     {
       "id": "2",
@@ -17,7 +18,8 @@
       "quantity": "5",
       "price_usd": "219.99",
       "subtype": "sneaker",
-      "manufacturer": "Nike"
+      "manufacturer": "Nike",
+      "link": "https://images.stockx.com/images/Nike-Dunk-Low-Retro-White-Black-2021-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1633027409&q=75"
     },
     {
       "id": "3",
@@ -27,7 +29,8 @@
       "quantity": "14",
       "price_usd": "205.49",
       "subtype": "sneaker",
-      "manufacturer": "Nike"
+      "manufacturer": "Nike",
+      "link": "https://images.stockx.com/images/Nike-Dunk-Low-Retro-Black-Hyper-Cobalt-2021-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1613671290&q=75"
     },
     {
       "id": "4",
@@ -37,7 +40,8 @@
       "quantity": "108",
       "price_usd": "199.99",
       "subtype": "slipper",
-      "manufacturer": "Adidas"
+      "manufacturer": "Adidas",
+      "link": "https://images.stockx.com/images/adidas-Yeezy-Slide-Bone-2022.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1655925431&q=75"
     },
     {
       "id": "5",
@@ -47,7 +51,8 @@
       "quantity": "43",
       "price_usd": "99.99",
       "subtype": "t-shirt",
-      "manufacturer": "Supreme"
+      "manufacturer": "Supreme",
+      "link": "https://images.stockx.com/images/Supreme-Manhattan-Tee-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1656603747&q=75"
     },
     {
       "id": "6",
@@ -57,7 +62,8 @@
       "quantity": "30",
       "price_usd": "99.99",
       "subtype": "t-shirt",
-      "manufacturer": "Supreme"
+      "manufacturer": "Supreme",
+      "link": "https://images.stockx.com/images/Supreme-Manhattan-Tee-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1656603747&q=75"
     },
     {
       "id": "7",
@@ -67,17 +73,19 @@
       "quantity": "12",
       "price_usd": "35.00",
       "subtype": "t-shirt",
-      "manufacturer": "Reebok"
+      "manufacturer": "Reebok",
+      "link": "https://images.stockx.com/images/Kith-x-Looney-Tunes-Tunesquad-Vintage-Tee-White-1.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1612548437&q=75"
     },
     {
-      "id": "8",
-      "product_name": "Graphic Series T-Shirt",
+    "id": "8",
+    "product_name": "Graphic Series T-Shirt",
       "size": "M",
       "color": "black",
       "quantity": "28",
       "price_usd": "30.00",
       "subtype": "t-shirt",
-      "manufacturer": "Reebok"
+      "manufacturer": "Reebok",
+      "link": "https://images.stockx.com/images/Human-Made-Polar-Bear-Graphic-T-Shirt-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1655098636&q=75"
     },
     {
       "id": "9",
@@ -87,7 +95,8 @@
       "quantity": "10",
       "price_usd": "39.30",
       "subtype": "hoodie",
-      "manufacturer": "Muji"
+      "manufacturer": "Muji",
+      "link": "https://images.stockx.com/images/FEAR-OF-GOD-ESSENTIALS-3D-Silicon-Applique-Full-Zip-Up-Hoodie-Buttercream.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1611097687&q=75"
     },
     {
       "id": "10",
@@ -97,7 +106,8 @@
       "quantity": "6",
       "price_usd": "55.30",
       "subtype": "top",
-      "manufacturer": "Puma"
+      "manufacturer": "Puma",
+      "link": "https://images.stockx.com/images/Bape-ABC-Camo-Shark-Hoodie-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1635276666&q=75"
     },
     {
       "id": "11",
@@ -107,7 +117,8 @@
       "quantity": "6",
       "price_usd": "34.55",
       "subtype": "shorts",
-      "manufacturer": "Puma"
+      "manufacturer": "Puma",
+      "link": "https://images.stockx.com/images/PUMA-x-Ami-Shorts-Blue.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1647371619&q=75"
     },
     {
       "id": "12",
@@ -117,7 +128,8 @@
       "quantity": "11",
       "price_usd": "37.99",
       "subtype": "hoodie",
-      "manufacturer": "ASOS"
+      "manufacturer": "ASOS",
+      "link": "https://images.stockx.com/images/Garment-Workshop-Heavyweight-Hoodie-Chaos-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1650495885&q=75"
     },
     {
       "id": "13",
@@ -127,17 +139,19 @@
       "quantity": "7",
       "price_usd": "385.00",
       "subtype": "hoodie",
-      "manufacturer": "Palm Angels"
+      "manufacturer": "Palm Angels",
+      "link": "https://images.stockx.com/images/Palm-Angels-Bear-Print-Sprayed-Logo-Hoodie-Navy-Blue-Brown.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1634150137&q=75"
     },
     {
       "id": "14",
       "product_name": "Palm Angels Classic Track Pants",
       "size": "M",
-      "color": "black",
+      "color": "red",
       "quantity": "4",
       "price_usd": "344.00",
       "subtype": "bottoms",
-      "manufacturer": "Palm Angels"
+      "manufacturer": "Palm Angels",
+      "link": "https://images.stockx.com/images/Palm-Angels-Classic-Track-Pants-Red.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1616802942&q=75"
     },
     {
       "id": "15",
@@ -147,17 +161,19 @@
       "quantity": "15",
       "price_usd": "127.00",
       "subtype": "sneaker",
-      "manufacturer": "Adidas"
+      "manufacturer": "Adidas",
+      "link": "https://images.stockx.com/images/adidas-Ultra-Boost-40-DNA-White-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1620058617&q=75"
     },
     {
       "id": "16",
       "product_name": "Palace Valley of the Shadows T-shirt",
       "size": "L",
-      "color": "black",
+      "color": "orange",
       "quantity": "3",
       "price_usd": "120.00",
       "subtype": "t-shirt",
-      "manufacturer": "Palace"
+      "manufacturer": "Palace",
+      "link": "https://images.stockx.com/images/Palace-Valley-of-the-Shadows-T-shirt-Caramel.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1656084603&q=75"
     },
     {
       "id": "17",
@@ -167,7 +183,8 @@
       "quantity": "3",
       "price_usd": "151.00",
       "subtype": "shorts",
-      "manufacturer": "Palace"
+      "manufacturer": "Palace",
+      "link": "https://images.stockx.com/images/Palace-Saves-Shorts-Red.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1651857994&q=75"
     },
     {
       "id": "18",
@@ -177,7 +194,8 @@
       "quantity": "1",
       "price_usd": "451.00",
       "subtype": "t-shirt",
-      "manufacturer": "Kith"
+      "manufacturer": "Kith",
+      "link": "https://images.stockx.com/images/Kith-x-Looney-Tunes-KithJam-Vintage-Tee-Black-1.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1606316226&q=75"
     },
     {
       "id": "19",
@@ -187,7 +205,8 @@
       "quantity": "25",
       "price_usd": "135.00",
       "subtype": "sneaker",
-      "manufacturer": "Puma"
+      "manufacturer": "Puma",
+      "link": "https://images.stockx.com/images/Puma-LaMelo-Ball-MB01-Be-You-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1659621825&q=75"
     },
     {
       "id": "20",
@@ -197,7 +216,8 @@
       "quantity": "2",
       "price_usd": "100.00",
       "subtype": "sneaker",
-      "manufacturer": "Puma"
+      "manufacturer": "Puma",
+      "link": "https://images.stockx.com/images/Puma-Mirage-Mox-EB-Desert-Sage.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1621472404&q=75"
     },
     {
       "id": "21",
@@ -207,7 +227,8 @@
       "quantity": "8",
       "price_usd": "160.00",
       "subtype": "sneaker",
-      "manufacturer": "Adidas"
+      "manufacturer": "Adidas",
+      "link": "https://images.stockx.com/images/adidas-Samba-Wales-Bonner-White-Green-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1659538442&q=75"
     },
     {
       "id": "22",
@@ -217,7 +238,8 @@
       "quantity": "2",
       "price_usd": "50.00",
       "subtype": "t-shirt",
-      "manufacturer": "Kid Cudi"
+      "manufacturer": "Kid Cudi",
+      "link": "https://images.stockx.com/images/Kid-Cudi-CPFM-For-MOTM-III-Heaven-on-Earth-T-Shirt-White.png?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1608099230&q=75"
     },
     {
       "id": "23",
@@ -227,7 +249,8 @@
       "quantity": "2",
       "price_usd": "75.00",
       "subtype": "t-shirt",
-      "manufacturer": "Kid Cudi"
+      "manufacturer": "Kid Cudi",
+      "link": "https://images.stockx.com/images/Kid-Cudi-Flower-T-shirt-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1640285215&q=75"
     },
     {
       "id": "24",
@@ -237,7 +260,8 @@
       "quantity": "6",
       "price_usd": "95.00",
       "subtype": "jersey",
-      "manufacturer": "Travis Scott"
+      "manufacturer": "Travis Scott",
+      "link": "https://images.stockx.com/images/Travis-Scott-The-Scotts-Cj-Gaming-I-L-S-Jersey-Black-Multi.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1606346553&q=75"
     },
     {
       "id": "25",
@@ -247,17 +271,19 @@
       "quantity": "7",
       "price_usd": "227.00",
       "subtype": "sneaker",
-      "manufacturer": "Nike"
+      "manufacturer": "Nike",
+      "link": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-Black-White-Light-Smoke-Grey-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1621454319&q=75"
     },
     {
       "id": "26",
-      "product_name": "Adidas NMD R1 Primeblue ",
+      "product_name": "Adidas NMD R1 Primeblue",
       "size": "41",
       "color": "white",
       "quantity": "13",
       "price_usd": "108.00",
       "subtype": "sneaker",
-      "manufacturer": "Adidas"
+      "manufacturer": "Adidas",
+      "link": "https://images.stockx.com/images/adidas-NMD-R1-Primeblue-White-Gum-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1651844368&q=75"
     },
     {
       "id": "27",
@@ -267,7 +293,8 @@
       "quantity": "3",
       "price_usd": "70.00",
       "subtype": "t-shirt",
-      "manufacturer": "Nike"
+      "manufacturer": "Nike",
+      "link": "https://images.stockx.com/images/Jordan-x-Maison-Chateau-Rouge-T-Shirt-White.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1655783598&q=75"
     },
     {
       "id": "28",
@@ -277,7 +304,8 @@
       "quantity": "303",
       "price_usd": "73.00",
       "subtype": "t-shirt",
-      "manufacturer": "ASSC"
+      "manufacturer": "ASSC",
+      "link": "https://images.stockx.com/images/Anti-Social-Social-Club-Kkoch-Tee-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1606315722&q=75"
     },
     {
       "id": "29",
@@ -287,7 +315,8 @@
       "quantity": "15",
       "price_usd": "157.00",
       "subtype": "shorts",
-      "manufacturer": "Supreme"
+      "manufacturer": "Supreme",
+      "link": "https://images.stockx.com/images/Supreme-Arc-Water-Short-Red.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1656603751&q=75"
     },
     {
       "id": "30",
@@ -297,7 +326,8 @@
       "quantity": "56",
       "price_usd": "231.00",
       "subtype": "hoodie",
-      "manufacturer": "Sp5der"
+      "manufacturer": "Sp5der",
+      "link": "https://images.stockx.com/images/Sp5der-PNK-Hoodie-Pink.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1629157353&q=75"
     },
     {
       "id": "31",
@@ -307,7 +337,8 @@
       "quantity": "33",
       "price_usd": "133.00",
       "subtype": "sneaker",
-      "manufacturer": "Converse"
+      "manufacturer": "Converse",
+      "link": "https://images.stockx.com/images/Converse-Chuck-Taylor-All-Star-70s-Hi-Comme-Des-Garcons-PLAY-Black-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1607647392&q=75"
     },
     {
       "id": "32",
@@ -317,7 +348,8 @@
       "quantity": "44",
       "price_usd": "105.00",
       "subtype": "sneaker",
-      "manufacturer": "Crocs"
+      "manufacturer": "Crocs",
+      "link": "https://images.stockx.com/images/Crocs-Classic-Clog-Lucky-Charms-Magically-Delicious.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1647374162&q=75"
     },
     {
       "id": "33",
@@ -327,7 +359,8 @@
       "quantity": "12",
       "price_usd": "85.00",
       "subtype": "t-shirt",
-      "manufacturer": "Comme des Garcons"
+      "manufacturer": "Comme des Garcons",
+      "link": "https://images.stockx.com/images/Comme-des-Garcons-PLAY-Pastelle-Red-Emblem-T-shirt-Blue.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1643667473&q=75"
     },
     {
       "id": "34",
@@ -337,7 +370,8 @@
       "quantity": "1",
       "price_usd": "95.00",
       "subtype": "t-shirt",
-      "manufacturer": "Stussy"
+      "manufacturer": "Stussy",
+      "link": "https://images.stockx.com/images/Stussy-x-CPFM-International-T-shirt-White.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1656695883&q=75"
     },
     {
       "id": "35",
@@ -347,7 +381,8 @@
       "quantity": "23",
       "price_usd": "70.00",
       "subtype": "t-shirt",
-      "manufacturer": "Stussy"
+      "manufacturer": "Stussy",
+      "link": "https://images.stockx.com/images/Stussy-Fuzzy-Dice-Tee-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1650651784"
     },
     {
       "id": "36",
@@ -357,7 +392,8 @@
       "quantity": "23",
       "price_usd": "490.00",
       "subtype": "t-shirt",
-      "manufacturer": "Chrome Hearts"
+      "manufacturer": "Chrome Hearts",
+      "link": "https://images.stockx.com/images/Chrome-Hearts-Multi-Color-Cross-Cemetery-T-Shirt-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1622359708&q=75"
     },
     {
       "id": "37",
@@ -367,17 +403,19 @@
       "quantity": "15",
       "price_usd": "100.00",
       "subtype": "hoodie",
-      "manufacturer": "Fear Of God"
+      "manufacturer": "Fear Of God",
+      "link": "https://images.stockx.com/images/Fear-of-God-Essentials-Core-Collection-Pullover-Hoodie-String.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1639003324&q=75"
     },
     {
       "id": "38",
       "product_name": "Fear of God Essentials Core Collection Pullover Hoodie",
-      "size": "",
+      "size": "S",
       "color": "cream",
       "quantity": "20",
       "price_usd": "99.00",
       "subtype": "hoodie",
-      "manufacturer": "Fear Of God"
+      "manufacturer": "Fear Of God",
+      "link": "https://images.stockx.com/images/Fear-of-God-Essentials-Core-Collection-Pullover-Hoodie-String.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1639003324&q=75"
     },
     {
       "id": "39",
@@ -387,7 +425,8 @@
       "quantity": "50",
       "price_usd": "59.99",
       "subtype": "t-shirt",
-      "manufacturer": "Fear Of God"
+      "manufacturer": "Fear Of God",
+      "link": "https://images.stockx.com/images/FEAR-OF-GOD-ESSENTIALS-T-shirt-Cream-Buttercream.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1620861743&q=75"
     },
     {
       "id": "40",
@@ -397,7 +436,8 @@
       "quantity": "23",
       "price_usd": "157.42",
       "subtype": "t-shirt",
-      "manufacturer": "Off-White"
+      "manufacturer": "Off-White",
+      "link": "https://images.stockx.com/images/off-white-x-jordan-t-shirt-white.png?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1613600723&q=75"
     },
     {
       "id": "41",
@@ -407,7 +447,8 @@
       "quantity": "34",
       "price_usd": "370.99",
       "subtype": "hoodie",
-      "manufacturer": "Off-White"
+      "manufacturer": "Off-White",
+      "link": "https://images.stockx.com/images/Off-White-x-Jordan-Hoodie-Sail.png?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1636622357&q=75"
     },
     {
       "id": "42",
@@ -417,6 +458,7 @@
       "quantity": "67",
       "price_usd": "61.49",
       "subtype": "socks",
-      "manufacturer": "Off-White"
+      "manufacturer": "Off-White",
+      "link": "https://images.stockx.com/images/OFF-WHITE-Arrow-Socks-White-Black.jpg?fit=fill&bg=FFFFFF&w=140&h=75&fm=avif&auto=compress&dpr=2&trim=color&updated_at=1623270814&q=75"
     }
   ]
